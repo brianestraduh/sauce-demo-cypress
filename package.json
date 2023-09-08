@@ -1,0 +1,18 @@
+{
+  
+  "devDependencies": {
+    "cypress": "^13.1.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "cypress-map": "^1.21.1",
+    "dotenv": "^16.3.1"
+  }, 
+  "scripts": {
+    "start": "react-scripts start",
+    "start-18": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts build",
+    "start:local": "npx cypress open --env environmentName=local",
+    "start:prod": "npx cypress open --env environmentName=prod"
+  }
+}

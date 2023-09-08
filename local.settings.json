@@ -1,0 +1,7 @@
+{
+  "baseUrl": "http://localhost:3000",
+     "user" : {
+        "username": "standard_user",
+        "password": "secret_sauce"
+    }
+}
