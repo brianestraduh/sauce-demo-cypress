@@ -4,6 +4,5 @@ jobs:
     e2e:
         uses: bahmutov/cypress-workflows/.github/workflows/standard.yml@v1
         with:
-            build: npm run lint
             start: npm start
-            wait-on : 'http://127.0.0.1:3000'
+            wait-on : 'https://www.saucedemo.com/'
