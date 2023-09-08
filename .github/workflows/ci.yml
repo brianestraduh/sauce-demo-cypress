@@ -3,6 +3,3 @@ on: [push]
 jobs:
     e2e:
         uses: bahmutov/cypress-workflows/.github/workflows/standard.yml@v1
-        with:
-             n: 1
-             group: 'All tests'
